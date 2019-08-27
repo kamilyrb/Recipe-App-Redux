@@ -1,188 +1,188 @@
 {
-	categories: [{
+	"categories": [{
 			"id": 1,
-			name: "Soup"
+			"name": "Soup"
 		}, {
 			"id": 2,
-			name: "Meat-Fish-Poultry"
+			"name": "Meat-Fish-Poultry"
 		}, {
 			"id": 3,
-			name: "Pastry"
+			"name": "Pastry"
 		}, {
 			"id": 4,
-			name: "Vegetables"
+			"name": "Vegetables"
 		}, {
 			"id": 5,
-			name: "Dessert"
-		},
-	]
-
-	meals: [{
-			id: 1,
-			categoryId: 1,
-			name: "Green Gazpacho",
-			recipe: "Blend honeydew melon, cucumber, onion, avocado, jalapeno pepper, garlic, white balsamic vinegar, lime juice, salt, and black pepper in a blender until smooth. Adjust seasonings if desired and chill before serving."
+			"name": "Dessert"
+		}
+	],"meals": [{
+			"id": 1,
+			"categoryId": 1,
+			"name": "Green Gazpacho",
+			"recipe": "Blend honeydew melon, cucumber, onion, avocado, jalapeno pepper, garlic, white balsamic vinegar, lime juice, salt, and black pepper in a blender until smooth. Adjust seasonings if desired and chill before serving."
 		}, {
-			id: 2,
-			categoryId: 1,
-			name: "Vegan Red Lentil Soup",
-			recipe: "Heat the oil in a large pot over medium heat, and cook the onion, ginger, garlic, and fenugreek until onion is tender.Mix the lentils, squash, and cilantro into the pot. Stir in the water, coconut milk, and tomato paste. Season with curry powder, cayenne pepper, nutmeg, salt, and pepper. Bring to a boil, reduce heat to low, and simmer 30 minutes, or until lentils and squash are tender."
+			"id": 2,
+			"categoryId": 1,
+			"name": "Vegan Red Lentil Soup",
+			"recipe": "Heat the oil in a large pot over medium heat, and cook the onion, ginger, garlic, and fenugreek until onion is tender.Mix the lentils, squash, and cilantro into the pot. Stir in the water, coconut milk, and tomato paste. Season with curry powder, cayenne pepper, nutmeg, salt, and pepper. Bring to a boil, reduce heat to low, and simmer 30 minutes, or until lentils and squash are tender."
 		}, {
-			id: 3,
-			categoryId: 1,
-			name: "Hatteras Style Clam Chowder",
-			recipe: "In a large pot over medium heat, cook onion, celery and carrots in oil until they begin to soften. Stir in potatoes, clams, clam juice, thyme, pepper and bacon. Bring to a boil, then reduce heat and simmer 20 minutes, or until potatoes are tender."
+			"id": 3,
+			"categoryId": 1,
+			"name": "Hatteras Style Clam Chowder",
+			"recipe": "In a large pot over medium heat, cook onion, celery and carrots in oil until they begin to soften. Stir in potatoes, clams, clam juice, thyme, pepper and bacon. Bring to a boil, then reduce heat and simmer 20 minutes, or until potatoes are tender."
 		}, {
-			id: 4,
-			categoryId: 1,
-			name: "Easy Zucchini Soup",
-			recipe: "Melt butter in a pot over medium heat. Add zucchini, chicken broth, salt, and curry powder to the pot; cook until the zucchini is soft, about 15 minutes.Pour soup into a blender no more than half full. Cover and hold lid in place; pulse a few times before leaving on to blend. Puree in batches until smooth."
+			"id": 4,
+			"categoryId": 1,
+			"name": "Easy Zucchini Soup",
+			"recipe": "Melt butter in a pot over medium heat. Add zucchini, chicken broth, salt, and curry powder to the pot; cook until the zucchini is soft, about 15 minutes.Pour soup into a blender no more than half full. Cover and hold lid in place; pulse a few times before leaving on to blend. Puree in batches until smooth."
 		}, {
-			id: 5,
-			categoryId: 1,
-			name: "Broccoli Cheese Soup",
-			recipe: "In a stockpot, melt butter over medium heat. Cook onion in butter until softened. Stir in broccoli, and cover with chicken broth. Simmer until broccoli is tender, 10 to 15 minutes.Reduce heat, and stir in cheese cubes until melted. Mix in milk and garlic powder.In a small bowl, stir cornstarch into water until dissolved. Stir into soup; cook, stirring frequently, until thick."
+			"id": 5,
+			"categoryId": 1,
+			"name": "Broccoli Cheese Soup",
+			"recipe": "In a stockpot, melt butter over medium heat. Cook onion in butter until softened. Stir in broccoli, and cover with chicken broth. Simmer until broccoli is tender, 10 to 15 minutes.Reduce heat, and stir in cheese cubes until melted. Mix in milk and garlic powder.In a small bowl, stir cornstarch into water until dissolved. Stir into soup; cook, stirring frequently, until thick."
 		}, {
-			id: 6,
-			categoryId: 1,
-			name: "Six Can Chicken Tortilla Soup",
-			recipe: "Open the cans of corn, chicken broth, chunk chicken, black beans, and diced tomatoes with green chilies. Pour everything into a large saucepan or stock pot. Simmer over medium heat until chicken is heated through."
+			"id": 6,
+			"categoryId": 1,
+			"name": "Six Can Chicken Tortilla Soup",
+			"recipe": "Open the cans of corn, chicken broth, chunk chicken, black beans, and diced tomatoes with green chilies. Pour everything into a large saucepan or stock pot. Simmer over medium heat until chicken is heated through."
 		}, {
-			id: 7,
-			categoryId: 2,
-			name: "Pulled Chicken, Squash & Greens",
-			recipe: "In a large soup pot over medium heat, add coconut oil and salt. Saute leeks and ginger until they start to color. Add diced squash and stir fry for a couple minutes. Add the broth and chopped greens' stems. Bring to a boil, reduce heat and simmer for 15 minutes. Add the choppes leaves of the greens and shredded chicken and simmer for an additional five minutes. Add salt, pepper to taste and perhaps a splash of cider vinegar."
+			"id": 7,
+			"categoryId": 2,
+			"name": "Pulled Chicken, Squash & Greens",
+			"recipe": "In a large soup pot over medium heat, add coconut oil and salt. Saute leeks and ginger until they start to color. Add diced squash and stir fry for a couple minutes. Add the broth and chopped greens' stems. Bring to a boil, reduce heat and simmer for 15 minutes. Add the choppes leaves of the greens and shredded chicken and simmer for an additional five minutes. Add salt, pepper to taste and perhaps a splash of cider vinegar."
 		}, {
-			id: 8,
-			categoryId: 2,
-			name: "Ground Turkey Korma",
-			recipe: "In a mixing bowl, combine all of the ingredients. Shape into oblong meatballs around skewers and grill until cooked through, flipping once."
+			"id": 8,
+			"categoryId": 2,
+			"name": "Ground Turkey Korma",
+			"recipe": "In a mixing bowl, combine all of the ingredients. Shape into oblong meatballs around skewers and grill until cooked through, flipping once."
 		}, {
-			id: 9,
-			categoryId: 2,
-			name: "Turkey Gallimaufry",
-			recipe: "Melt coconut oil in large pan over medium heat. Saute garlic and onion for a few minutes. Add the celery, cinnamon, salt and pepper and saute for a few more minutes. Add ground turkey and saute, stirring occasionally until the turkey is cooked.Add remaining vegetables, ginger, parsley and salsa.Cook for about 10 or so minutes until all the vegetables are tender. Adjust seasonings to taste."
+			"id": 9,
+			"categoryId": 2,
+			"name": "Turkey Gallimaufry",
+			"recipe": "Melt coconut oil in large pan over medium heat. Saute garlic and onion for a few minutes. Add the celery, cinnamon, salt and pepper and saute for a few more minutes. Add ground turkey and saute, stirring occasionally until the turkey is cooked.Add remaining vegetables, ginger, parsley and salsa.Cook for about 10 or so minutes until all the vegetables are tender. Adjust seasonings to taste."
 		}, {
-			id: 10,
-			categoryId: 2,
-			name: "Baked Chicken Thighs",
-			recipe: "Preheat the oven to 375.Put enough coconut oil in a roasting pan to generously cover the surface. Sprinkle some salt on the oil.Rinse and towel dry chicken thighs and cut off any extra, unwanted flaps of skin.Brush them skin side down in the salted oil and flip so they bake skin side up. Leave space between them. Sprinkle with black pepper and mixed herbs.Bake about 40 minutes or until juices run clear. If you want to crisp the skin, put it on high heat for the last five minutes.Let the chicken sit for 10 minutes before serving if you want it to hold its juices. "
+			"id": 10,
+			"categoryId": 2,
+			"name": "Baked Chicken Thighs",
+			"recipe": "Preheat the oven to 375.Put enough coconut oil in a roasting pan to generously cover the surface. Sprinkle some salt on the oil.Rinse and towel dry chicken thighs and cut off any extra, unwanted flaps of skin.Brush them skin side down in the salted oil and flip so they bake skin side up. Leave space between them. Sprinkle with black pepper and mixed herbs.Bake about 40 minutes or until juices run clear. If you want to crisp the skin, put it on high heat for the last five minutes.Let the chicken sit for 10 minutes before serving if you want it to hold its juices. "
 		}, {
-			id: 11,
-			categoryId: 2,
-			name: "Meat or Egg Paleo Yam Hash",
-			recipe: "Grate the yams by hand or with a the food processor.Place onion, 1/2 tsp salt, and oil in a frying pan and sweat the onions on low heat for 20 minutes, stirring occastionally. Add the four spices and stir fry for a minute.Add the meat, if using it, and brown it.Add the grated yam and continuously stir for 2 minutes. Add 1/4 cup water, cover the pan, simmer until done, about 15 minutes.Check now and then to make sure the water hasn’t all steamed off. Taste and adjust salt and pepper.Egg option: Once the yams are cooked, crack the eggs and stir them into the yams to make a scramble.Serve with a pile of mixed greens, steamed asparagus or broccoli and almond flatbreads."
+			"id": 11,
+			"categoryId": 2,
+			"name": "Meat or Egg Paleo Yam Hash",
+			"recipe": "Grate the yams by hand or with a the food processor.Place onion, 1/2 tsp salt, and oil in a frying pan and sweat the onions on low heat for 20 minutes, stirring occastionally. Add the four spices and stir fry for a minute.Add the meat, if using it, and brown it.Add the grated yam and continuously stir for 2 minutes. Add 1/4 cup water, cover the pan, simmer until done, about 15 minutes.Check now and then to make sure the water hasn’t all steamed off. Taste and adjust salt and pepper.Egg option: Once the yams are cooked, crack the eggs and stir them into the yams to make a scramble.Serve with a pile of mixed greens, steamed asparagus or broccoli and almond flatbreads."
 		}, {
-			id: 12,
-			categoryId: 2,
-			name: "Brunswick Stew, Low Carb Version",
-			recipe: "Coat the bottom of a large soup pot with oil and set to high heat. Brown the meat.Lower the heat to medium and stir in each vegetable starting with the onion. Add the broth and the tomatos if using and simmer until the carrots are soft, about 25 minutes in total. Add more water or broth if needed.Season to taste with cider vinegar, salt, pepper and hot sauce."
+			"id": 12,
+			"categoryId": 2,
+			"name": "Brunswick Stew, Low Carb Version",
+			"recipe": "Coat the bottom of a large soup pot with oil and set to high heat. Brown the meat.Lower the heat to medium and stir in each vegetable starting with the onion. Add the broth and the tomatos if using and simmer until the carrots are soft, about 25 minutes in total. Add more water or broth if needed.Season to taste with cider vinegar, salt, pepper and hot sauce."
 		}, {
-			id: 13,
-			categoryId: 3,
-			name: "Cinnamon Fruit Biscuits",
-			recipe: "In a small bowl, combine sugar and cinnamon. Dip top and sides of biscuits in butter, then in cinnamon-sugar.Place on ungreased baking sheets. With the end of a wooden spoon handle, make a deep indentation in the center of each biscuit; fill with 1 teaspoon preserves.Bake at 375° for 15-18 minutes or until golden brown. Cool for 15 minutes before serving (preserves will be hot)."
+			"id": 13,
+			"categoryId": 3,
+			"name": "Cinnamon Fruit Biscuits",
+			"recipe": "In a small bowl, combine sugar and cinnamon. Dip top and sides of biscuits in butter, then in cinnamon-sugar.Place on ungreased baking sheets. With the end of a wooden spoon handle, make a deep indentation in the center of each biscuit; fill with 1 teaspoon preserves.Bake at 375° for 15-18 minutes or until golden brown. Cool for 15 minutes before serving (preserves will be hot)."
 		}, {
-			id: 14,
-			categoryId: 3,
-			name: "Quick Cherry Turnovers",
-			recipe: "Preheat oven to 375°. Unroll crescent dough and separate into four rectangles; place on an ungreased baking sheet. Press perforations to seal. Place 1/4 cup pie filling on one half of each rectangle. Fold dough over filling; pinch edges to seal. Bake 10-12 minutes or until golden.Place confectioners' sugar in a small bowl; stir in enough milk to achieve a drizzling consistency. Drizzle over turnovers. Serve warm."
+			"id": 14,
+			"categoryId": 3,
+			"name": "Quick Cherry Turnovers",
+			"recipe": "Preheat oven to 375°. Unroll crescent dough and separate into four rectangles; place on an ungreased baking sheet. Press perforations to seal. Place 1/4 cup pie filling on one half of each rectangle. Fold dough over filling; pinch edges to seal. Bake 10-12 minutes or until golden.Place confectioners' sugar in a small bowl; stir in enough milk to achieve a drizzling consistency. Drizzle over turnovers. Serve warm."
 		}, {
-			id: 15,
-			categoryId: 3,
-			name: "Chocolate Banana Bundles",
-			recipe: "Preheat oven to 400°. In a large cast-iron or other heavy skillet, melt butter over medium heat. Stir in brown sugar until blended. Add bananas; stir to coat. Remove from heat; set aside.Unfold puff pastry. Cut into four rectangles. Place a halved banana in center of each square. Overlap two opposite corners of pastry over banana; pinch tightly to seal. Place on parchment paper-lined baking sheets.Bake until golden brown, 20-25 minutes. Drizzle with chocolate. If desired, serve warm with ice cream."
+			"id": 15,
+			"categoryId": 3,
+			"name": "Chocolate Banana Bundles",
+			"recipe": "Preheat oven to 400°. In a large cast-iron or other heavy skillet, melt butter over medium heat. Stir in brown sugar until blended. Add bananas; stir to coat. Remove from heat; set aside.Unfold puff pastry. Cut into four rectangles. Place a halved banana in center of each square. Overlap two opposite corners of pastry over banana; pinch tightly to seal. Place on parchment paper-lined baking sheets.Bake until golden brown, 20-25 minutes. Drizzle with chocolate. If desired, serve warm with ice cream."
 		}, {
-			id: 16,
-			categoryId: 3,
-			name: "Chocolate Toffee Biscuits",
-			recipe: "In a large bowl, combine the flour, sugar, baking powder and baking soda. Cut in butter until mixture resembles coarse crumbs. Stir in milk just until moistened. Fold in chocolate chips and toffee bits.Drop by 2 tablespoonfuls 2 in. apart onto ungreased baking sheets. Brush with melted butter; sprinkle with sugar. Bake at 425° for 13-15 minutes or until golden brown. Serve warm."
+			"id": 16,
+			"categoryId": 3,
+			"name": "Chocolate Toffee Biscuits",
+			"recipe": "In a large bowl, combine the flour, sugar, baking powder and baking soda. Cut in butter until mixture resembles coarse crumbs. Stir in milk just until moistened. Fold in chocolate chips and toffee bits.Drop by 2 tablespoonfuls 2 in. apart onto ungreased baking sheets. Brush with melted butter; sprinkle with sugar. Bake at 425° for 13-15 minutes or until golden brown. Serve warm."
 		}, {
-			id: 17,
-			categoryId: 3,
-			name: "Nutella Hand",
-			recipe: "Preheat oven to 400°. In a small bowl, whisk egg with water.Unfold puff pastry; cut into 9 squares. Place 1 teaspoon Nutella in center of each; sprinkle with orange zest. Brush edges of pastry with egg mixture. Fold 1 corner over filling to form a triangle; press edges to seal. Transfer to an ungreased baking sheet.Bake until pastry is golden brown and cooked through, 17-20 minutes. Cool slightly.In a small bowl, mix confectioners' sugar, orange juice and orange zest; drizzle over pies. If desired, warm additional Nutella in a microwave and drizzle over tops."
+			"id": 17,
+			"categoryId": 3,
+			"name": "Nutella Hand",
+			"recipe": "Preheat oven to 400°. In a small bowl, whisk egg with water.Unfold puff pastry; cut into 9 squares. Place 1 teaspoon Nutella in center of each; sprinkle with orange zest. Brush edges of pastry with egg mixture. Fold 1 corner over filling to form a triangle; press edges to seal. Transfer to an ungreased baking sheet.Bake until pastry is golden brown and cooked through, 17-20 minutes. Cool slightly.In a small bowl, mix confectioners' sugar, orange juice and orange zest; drizzle over pies. If desired, warm additional Nutella in a microwave and drizzle over tops."
 		}, {
-			id: 18,
-			categoryId: 3,
-			name: "Banana Beignet Bites",
-			recipe: "In a small bowl, mix sugars and cinnamon until blended. In a large bowl, whisk the first five beignet ingredients. In another bowl, whisk egg, bananas, milk and 2 tablespoons oil until blended. Add to flour mixture; stir just until moistened.In an electric skillet or deep fryer, heat oil to 375°. Drop tablespoonfuls of batter, a few at a time, into hot oil. Fry about 45-60 seconds on each side or until golden brown. Drain on paper towels. Roll warm beignets in sugar mixture."
+			"id": 18,
+			"categoryId": 3,
+			"name": "Banana Beignet Bites",
+			"recipe": "In a small bowl, mix sugars and cinnamon until blended. In a large bowl, whisk the first five beignet ingredients. In another bowl, whisk egg, bananas, milk and 2 tablespoons oil until blended. Add to flour mixture; stir just until moistened.In an electric skillet or deep fryer, heat oil to 375°. Drop tablespoonfuls of batter, a few at a time, into hot oil. Fry about 45-60 seconds on each side or until golden brown. Drain on paper towels. Roll warm beignets in sugar mixture."
 		}, {
-			id: 19,
-			categoryId: 3,
-			name: "Berry-Filled Doughnuts",
-			recipe: "In an electric skillet or deep fryer, heat oil to 350°. Separate biscuits; press each to flatten slightly. Fry biscuits, a few at a time, until golden brown, 1 to 1-1/4 minutes per side. Drain on paper towels.Cut a small hole in the tip of a pastry bag; insert a small pastry tip. Fill bag with jam. With a small knife, pierce a hole into the side of each doughnut; fill with jam.Toss with confectioners' sugar. Serve warm."
+			"id": 19,
+			"categoryId": 3,
+			"name": "Berry-Filled Doughnuts",
+			"recipe": "In an electric skillet or deep fryer, heat oil to 350°. Separate biscuits; press each to flatten slightly. Fry biscuits, a few at a time, until golden brown, 1 to 1-1/4 minutes per sidee. Drain on paper towels.Cut a small hole in the tip of a pastry bag; insert a small pastry tip. Fill bag with jam. With a small knife, pierce a hole into the side of each doughnut; fill with jam.Toss with confectioners' sugar. Serve warm."
 		}, {
-			id: 20,
-			categoryId: 4,
-			name: "Cole Slaw",
-			recipe: "In a large bowl, combine cabbage and carrots. In a smaller bowl, make dressing by combining mayonnaise, vinegar, celery seed, sugar, salt and pepper. Toss dressing into cabbage mixture and let chill. Serve in a family style bowl."
+			"id": 20,
+			"categoryId": 4,
+			"name": "Cole Slaw",
+			"recipe": "In a large bowl, combine cabbage and carrots. In a smaller bowl, make dressing by combining mayonnaise, vinegar, celery seed, sugar, salt and pepper. Toss dressing into cabbage mixture and let chill. Serve in a family style bowl."
 		}, {
-			id: 21,
-			categoryId: 4,
-			name: "Pico de Gallo",
-			recipe: "In a large skillet heat the olive oil. When almost smoking, add the onion and garlic and saute over medium heat until the onions become very soft, about 8 minutes. Add the celery and carrot and saute for 5 minutes. Raise heat to high and add the ground beef. Saute, stirring frequently and breaking up any large lumps and cook until meat is no longer pink, about 10 minutes. Add the tomatoes, parsley and basil and cook over medium low heat until the sauce thickens. Season with salt and pepper. This will take approximately 1/2 hour. Finish bolognese with Pecorino Romano."
+			"id": 21,
+			"categoryId": 4,
+			"name": "Pico de Gallo",
+			"recipe": "In a large skillet heat the olive oil. When almost smoking, add the onion and garlic and saute over medium heat until the onions become very soft, about 8 minutes. Add the celery and carrot and saute for 5 minutes. Raise heat to high and add the ground beef. Saute, stirring frequently and breaking up any large lumps and cook until meat is no longer pink, about 10 minutes. Add the tomatoes, parsley and basil and cook over medium low heat until the sauce thickens. Season with salt and pepper. This will take approximately 1/2 hour. Finish bolognese with Pecorino Romano."
 		}, {
-			id: 22,
-			categoryId: 4,
-			name: "Tomato, Onion, and Cucumber Salad",
-			recipe: "Dress the tomatoes, onions, and cucumber with olive oil, red wine vinegar, salt, and pepper.Let stand while you prepare dinner, about 20 minutes. Re-toss and serve salad with crusty bread for mopping up juices and oil."
+			"id": 22,
+			"categoryId": 4,
+			"name": "Tomato, Onion, and Cucumber Salad",
+			"recipe": "Dress the tomatoes, onions, and cucumber with olive oil, red wine vinegar, salt, and pepper.Let stand while you prepare dinner, about 20 minutes. Re-toss and serve salad with crusty bread for mopping up juices and oil."
 		}, {
-			id: 23,
-			categoryId: 4,
-			name: "Chicken Stir-Fry",
-			recipe: "Heat 1 tablespoon oil in a saute pan over medium heat. Add garlic and stir. Place the chicken in the pan and brown 4 minutes on each side. Remove from pan, slice into strips, set aside.Heat remaining tablespoon of oil in a wok over high heat. Add the vegetables and teriyaki sauce. Stir-fry quickly until the vegetables begin to soften. Add the chicken strips, combine well and continue to cook for 2 to 3 minutes. Serve immediately."
+			"id": 23,
+			"categoryId": 4,
+			"name": "Chicken Stir-Fry",
+			"recipe": "Heat 1 tablespoon oil in a saute pan over medium heat. Add garlic and stir. Place the chicken in the pan and brown 4 minutes on each side. Remove from pan, slice into strips, set aside.Heat remaining tablespoon of oil in a wok over high heat. Add the vegetables and teriyaki sauce. Stir-fry quickly until the vegetables begin to soften. Add the chicken strips, combine well and continue to cook for 2 to 3 minutes. Serve immediately."
 		}, {
-			id: 24,
-			categoryId: 4,
-			name: "Quinoa Salad",
-			recipe: "Bring the water to a boil in a large saucepan. Add the quinoa, stir once, and return to a boil. Cook uncovered, over medium heat for 12 minutes.Strain and rinse well with cold water, shaking the sieve well to remove all moisture.When dry, transfer the quinoa to a large bowl. Add the cucumbers, onion,tomato, parsley, mint, olive oil, vinegar, lemon juice, salt, and pepper and toss well. Spoon onto endive spears, top with avocado, and serve."
+			"id": 24,
+			"categoryId": 4,
+			"name": "Quinoa Salad",
+			"recipe": "Bring the water to a boil in a large saucepan. Add the quinoa, stir once, and return to a boil. Cook uncovered, over medium heat for 12 minutes.Strain and rinse well with cold water, shaking the sieve well to remove all moisture.When dry, transfer the quinoa to a large bowl. Add the cucumbers, onion,tomato, parsley, mint, olive oil, vinegar, lemon juice, salt, and pepper and toss well. Spoon onto endive spears, top with avocado, and serve."
 		}, {
-			id: 25,
-			categoryId: 4,
-			name: "Mexican Grilled Corn",
-			recipe: "Remove the husks of the corn but leave the core attached at the end so you have something to hold onto. Grill the corn on a hot grill or cast iron griddle pan until slightly charred. Turn it so it gets cooked evenly all over. Mix the mayonnaise, sour cream and cilantro together. Grate the Parmesan in another bowl. While the corn is still warm slather with mayonnaise mix. Squeeze lime juice over the corn and shower with Parmesan. Season with chili powder and serve with extra lime wedges."
+			"id": 25,
+			"categoryId": 4,
+			"name": "Mexican Grilled Corn",
+			"recipe": "Remove the husks of the corn but leave the core attached at the end so you have something to hold onto. Grill the corn on a hot grill or cast iron griddle pan until slightly charred. Turn it so it gets cooked evenly all over. Mix the mayonnaise, sour cream and cilantro together. Grate the Parmesan in another bowl. While the corn is still warm slather with mayonnaise mix. Squeeze lime juice over the corn and shower with Parmesan. Season with chili powder and serve with extra lime wedges."
 		}, {
-			id: 26,
-			categoryId: 4,
-			name: "Hot Spinach and Artichoke Dip",
-			recipe: "Boil spinach and artichokes in 1 cup of water until tender and drain. Discard liquid. Heat cream cheese in microwave for 1 minute or until hot and soft. Stir in rest of ingredients and serve hot."
+			"id": 26,
+			"categoryId": 4,
+			"name": "Hot Spinach and Artichoke Dip",
+			"recipe": "Boil spinach and artichokes in 1 cup of water until tender and drain. Discard liquide. Heat cream cheese in microwave for 1 minute or until hot and soft. Stir in rest of ingredients and serve hot."
 		}, {
-			id: 27,
-			categoryId: 5,
-			name: "Tropical Ice Cream Sandwiches",
-			recipe: "Make 8 sandwiches, using 2 slices of pound cake and 1/4 cup softened mango sorbet each. Wrap each sandwich tightly with plastic wrap, and freeze for 2 hours.Dissolve sweetener in lime juice and coconut milk; toss with blueberries, mango, strawberries, and peach slices.To serve, unwrap the sandwiches and place each onto a dessert plate. Top with a mound of fruit and garnish with whipped cream and a mint sprig."
+			"id": 27,
+			"categoryId": 5,
+			"name": "Tropical Ice Cream Sandwiches",
+			"recipe": "Make 8 sandwiches, using 2 slices of pound cake and 1/4 cup softened mango sorbet each. Wrap each sandwich tightly with plastic wrap, and freeze for 2 hours.Dissolve sweetener in lime juice and coconut milk; toss with blueberries, mango, strawberries, and peach slices.To serve, unwrap the sandwiches and place each onto a dessert plate. Top with a mound of fruit and garnish with whipped cream and a mint sprig."
 		}, {
-			id: 28,
-			categoryId: 5,
-			name: "Mrs. Sigg's Snickerdoodles",
-			recipe: "Preheat oven to 400 degrees F (200 degrees C).Cream together butter, shortening, 1 1/2 cups sugar, the eggs and the vanilla. Blend in the flour, cream of tartar, soda and salt. Shape dough by rounded spoonfuls into balls.Mix the 2 tablespoons sugar and the cinnamon. Roll balls of dough in mixture. Place 2 inches apart on ungreased baking sheets.Bake 8 to 10 minutes, or until set but not too hard. Remove immediately from baking sheets"
+			"id": 28,
+			"categoryId": 5,
+			"name": "Mrs. Sigg's Snickerdoodles",
+			"recipe": "Preheat oven to 400 degrees F (200 degrees C).Cream together butter, shortening, 1 1/2 cups sugar, the eggs and the vanilla. Blend in the flour, cream of tartar, soda and salt. Shape dough by rounded spoonfuls into balls.Mix the 2 tablespoons sugar and the cinnamon. Roll balls of dough in mixture. Place 2 inches apart on ungreased baking sheets.Bake 8 to 10 minutes, or until set but not too hard. Remove immediately from baking sheets"
 		}, {
-			id: 29,
-			categoryId: 5,
-			name: "Best Chocolate Chip Cookies",
-			recipe: "Preheat oven to 350 degrees F (175 degrees C).Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.Bake for about 10 minutes in the preheated oven, or until edges are nicely browned."
+			"id": 29,
+			"categoryId": 5,
+			"name": "Best Chocolate Chip Cookies",
+			"recipe": "Preheat oven to 350 degrees F (175 degrees C).Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.Bake for about 10 minutes in the preheated oven, or until edges are nicely browned."
 		}, {
-			id: 30,
-			categoryId: 5,
-			name: "Apple Pie by Grandma Ople",
-			recipe: "Preheat oven to 425 degrees F (220 degrees C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring to a boil. Reduce temperature and let simmer.Place the bottom crust in your pan. Fill with apples, mounded slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so that it does not run off.Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175 degrees C). Continue baking for 35 to 45 minutes, until apples are soft."
+			"id": 30,
+			"categoryId": 5,
+			"name": "Apple Pie by Grandma Ople",
+			"recipe": "Preheat oven to 425 degrees F (220 degrees C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring to a boil. Reduce temperature and let simmer.Place the bottom crust in your pan. Fill with apples, mounded slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquide over the crust. Pour slowly so that it does not run off.Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175 degrees C). Continue baking for 35 to 45 minutes, until apples are soft."
 		}, {
-			id: 31,
-			categoryId: 5,
-			name: "Award Winning Soft Chocolate Chip Cookies",
-			recipe: "Preheat oven to 350 degrees F (175 degrees C). Sift together the flour and baking soda, set aside.In a large bowl, cream together the butter, brown sugar, and white sugar. Beat in the instant pudding mix until blended. Stir in the eggs and vanilla. Blend in the flour mixture. Finally, stir in the chocolate chips and nuts. Drop cookies by rounded spoonfuls onto ungreased cookie sheets.Bake for 10 to 12 minutes in the preheated oven. Edges should be golden brown."
+			"id": 31,
+			"categoryId": 5,
+			"name": "Award Winning Soft Chocolate Chip Cookies",
+			"recipe": "Preheat oven to 350 degrees F (175 degrees C). Sift together the flour and baking soda, set as ide.In a large bowl, cream together the butter, brown sugar, and white sugar. Beat in the instant pudding mix until blended. Stir in the eggs and vanilla. Blend in the flour mixture. Finally, stir in the chocolate chips and nuts. Drop cookies by rounded spoonfuls onto ungreased cookie sheets.Bake for 10 to 12 minutes in the preheated oven. Edges should be golden brown."
 		}, {
-			id: 32,
-			categoryId: 5,
-			name: "The Best Rolled Sugar Cookies",
-			recipe: "In a large bowl, cream together butter and sugar until smooth. Beat in eggs and vanilla. Stir in the flour, baking powder, and salt. Cover, and chill dough for at least one hour (or overnight).Preheat oven to 400 degrees F (200 degrees C). Roll out dough on floured surface 1/4 to 1/2 inch thick. Cut into shapes with any cookie cutter. Place cookies 1 inch apart on ungreased cookie sheets.Bake 6 to 8 minutes in preheated oven. Cool completely."
+			"id": 32,
+			"categoryId": 5,
+			"name": "The Best Rolled Sugar Cookies",
+			"recipe": "In a large bowl, cream together butter and sugar until smooth. Beat in eggs and vanilla. Stir in the flour, baking powder, and salt. Cover, and chill dough for at least one hour (or overnight).Preheat oven to 400 degrees F (200 degrees C). Roll out dough on floured surface 1/4 to 1/2 inch thick. Cut into shapes with any cookie cutter. Place cookies 1 inch apart on ungreased cookie sheets.Bake 6 to 8 minutes in preheated oven. Cool completely."
 		}, {
-			id: 33,
-			categoryId: 5,
-			name: "Too Much Chocolate Cake",
-			recipe: "Preheat oven to 350 degrees F (175 degrees C).In a large bowl, mix together the cake and pudding mixes, sour cream, oil, beaten eggs and water. Stir in the chocolate chips and pour batter into a well greased 12 cup bundt pan.Bake for 50 to 55 minutes, or until top is springy to the touch and a wooden toothpick inserted comes out clean. Cool cake thoroughly in pan at least an hour and a half before inverting onto a plate If desired, dust the cake with powdered sugar."
+			"id": 33,
+			"categoryId": 5,
+			"name": "Too Much Chocolate Cake",
+			"recipe": "Preheat oven to 350 degrees F (175 degrees C).In a large bowl, mix together the cake and pudding mixes, sour cream, oil, beaten eggs and water. Stir in the chocolate chips and pour batter into a well greased 12 cup bundt pan.Bake for 50 to 55 minutes, or until top is springy to the touch and a wooden toothpick inserted comes out clean. Cool cake thoroughly in pan at least an hour and a half before inverting onto a plate If desired, dust the cake with powdered sugar."
 		}
 	]
+
+	
 
 }
