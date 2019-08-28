@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Row, Col,Container } from 'reactstrap'
 import CategoryList from '../category/CategoryList';
+import RecipeList from '../recipe/RecipeList'
 export default class Dashboard extends Component {
     render() {
         return (
@@ -11,7 +12,7 @@ export default class Dashboard extends Component {
                             <CategoryList />
                         </Col>
                         <Col xs="9">
-                            Test
+                            <RecipeList/>
                     </Col>
                     </Row></Container>
             </div>

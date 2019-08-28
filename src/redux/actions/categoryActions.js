@@ -2,6 +2,10 @@ import * as actionTypes from './actionTypes'
 import { SERVER_URL } from '../../constants'
 
 
+export function changeCategory(category) {
+    return { type: actionTypes.CHANGE_CATEGORY, payload: category }
+}
+
 function getCategoriesSuccess(categories) {
     return { type: actionTypes.GET_CATEGORIES_SUCCESS, payload: categories }
 }

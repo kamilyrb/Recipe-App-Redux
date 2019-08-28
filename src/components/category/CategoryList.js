@@ -3,11 +3,18 @@ import { Badge, ListGroup, ListGroupItem } from 'reactstrap'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as categoryActions from '../../redux/actions/categoryActions'
+import * as recipeActions from '../../redux/actions/recipeActions'
 class CategoryList extends Component {
 
     componentDidMount() {
         this.props.actions.getCategories();
     }
+
+    selectCategory = (category) =>{
+        this.props.actions.changeCategory(category);
+        this.props.actions.getRecipes(category.id);
+    }
+
 
     render() {
         return (
@@ -17,7 +24,7 @@ class CategoryList extends Component {
                     {
                         
                         this.props.categories.map(c =>
-                        (<ListGroupItem  key={c.id} >{c.name}</ListGroupItem>)
+                        (<ListGroupItem active={c.id === this.props.currentCategory.id}  key={c.id} onClick={() => this.selectCategory(c)}>{c.name}</ListGroupItem>)
                         
                     )}
                 </ListGroup>
@@ -37,7 +44,8 @@ function mapDispatchToProps(dispatch) {
     return {
         actions: {
             getCategories: bindActionCreators(categoryActions.getCategories, dispatch),
-            //changeCategory: bindActionCreators(categoryActions.changeCategory, dispatch),
+            changeCategory: bindActionCreators(categoryActions.changeCategory, dispatch),
+            getRecipes: bindActionCreators(recipeActions.getRecipes, dispatch),
         }
     }
 }
