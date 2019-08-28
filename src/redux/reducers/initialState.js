@@ -1,5 +1,6 @@
 export default {
     categories:[],
     currentCategory: { },
-    recipes:[]
+    favouriteRecipes:[],
+    recipes:[],
 }
