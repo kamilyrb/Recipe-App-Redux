@@ -4,9 +4,7 @@ import {
   Navbar,
   NavbarToggler,
   NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink } from 'reactstrap';
+  Nav, } from 'reactstrap';
 import FavouriteSummary from '../favourite/FavouriteSummary';
 
 export default class Navi extends React.Component {
@@ -26,7 +24,7 @@ export default class Navi extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md">
+        <Navbar color="dark" dark expand="md" sticky>
           <NavbarBrand href="/">Recipe App</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

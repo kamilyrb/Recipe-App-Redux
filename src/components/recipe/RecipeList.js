@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-import recipeListReducer from '../../redux/reducers/recipeListReducer'
-import changeCategoryReducer from '../../redux/reducers/changeCategoryReducer'
 import * as recipeActions from '../../redux/actions/recipeActions'
 import * as favouriteActions from '../../redux/actions/favouriteActions'
 import { connect } from 'react-redux';
-import { Badge, Row, Col } from 'reactstrap'
+import { Card, CardImg, CardBody, CardTitle, CardText, Button,Badge, Row, Col } from 'reactstrap'
 import { bindActionCreators } from 'redux';
-import { Card, CardImg, CardBody, CardTitle, CardText, Button } from 'reactstrap'
 class RecipeList extends Component {
     componentDidMount() {
         this.props.actions.getRecipes();

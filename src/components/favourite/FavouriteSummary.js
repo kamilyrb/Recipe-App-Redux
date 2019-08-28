@@ -1,47 +1,45 @@
 import React, { Component } from 'react'
-import {NavItem,NavLink,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem,Badge} from 'reactstrap'
-import {Link} from 'react-router-dom'
+import { NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, Badge } from 'reactstrap'
+import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as favouriteActions from '../../redux/actions/favouriteActions'
-import favouriteReducer from '../../redux/reducers/favouriteReducer'
 class FavouriteSummary extends Component {
 
 
     renderEmpty() {
         return (<NavItem>
-          <NavLink>Empty Favourite List</NavLink>
+            <NavLink>Empty Favourite List</NavLink>
         </NavItem>)
-      }
-    
-      renderSummary() {
+    }
+
+    renderSummary() {
         return (<UncontrolledDropdown nav inNavbar>
-          <DropdownToggle nav caret>
-            Your Favourites
+            <DropdownToggle nav caret>
+                Your Favourites ({this.props.favouriteRecipes.length})
                 </DropdownToggle>
-          <DropdownMenu right>
-            {this.props.favouriteRecipes.map(r => (
-    
-              <DropdownItem key={r.id}>
-                <Badge color='danger' onClick={() => this.props.actions.removeFromFavourite(r)}>-</Badge>
-                {r.name}
-              </DropdownItem>
-            ))}
-    
-    
-            <DropdownItem divider />
-            <DropdownItem>
-              Go To Favourites
-            </DropdownItem>
-          </DropdownMenu>
+            <DropdownMenu right>
+                {this.props.favouriteRecipes.map(r => (
+
+                    <DropdownItem key={r.id}>
+                        <Badge color='danger' onClick={() => this.props.actions.removeFromFavourite(r)}>-</Badge>
+                        {r.name}
+                    </DropdownItem>
+                ))}
+
+
+                <DropdownItem divider />
+                <DropdownItem><Link to='favourites'>Go To Favourites</Link>
+                </DropdownItem>
+            </DropdownMenu>
         </UncontrolledDropdown>)
-      }
-    
+    }
+
 
     render() {
         return (
             <div>
-                 {this.props.favouriteRecipes.length > 0 ? this.renderSummary() : this.renderEmpty()}
+                {this.props.favouriteRecipes.length > 0 ? this.renderSummary() : this.renderEmpty()}
             </div>
         )
     }
@@ -49,16 +47,16 @@ class FavouriteSummary extends Component {
 
 function mapDispatchToProps(dispatch) {
     return {
-      actions: {
-        removeFromFavourite: bindActionCreators(favouriteActions.removeFromFavourite, dispatch),
-      }
+        actions: {
+            removeFromFavourite: bindActionCreators(favouriteActions.removeFromFavourite, dispatch),
+        }
     }
-  }
+}
 
 function mapStateToProps(state) {
     return {
-      favouriteRecipes: state.favouriteReducer
+        favouriteRecipes: state.favouriteReducer
     }
-  }
+}
 
-export default connect(mapStateToProps,mapDispatchToProps)(FavouriteSummary)
+export default connect(mapStateToProps, mapDispatchToProps)(FavouriteSummary)
