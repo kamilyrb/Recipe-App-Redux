@@ -24,7 +24,7 @@ export default class Navi extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md" sticky>
+        <Navbar color="dark" dark expand="md" sticky="true">
           <NavbarBrand href="/">Recipe App</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import * as recipeActions from '../../redux/actions/recipeActions'
 import * as favouriteActions from '../../redux/actions/favouriteActions'
 import { connect } from 'react-redux';
-import { Card, CardImg, CardBody, CardTitle, CardText, Button,Badge, Row, Col } from 'reactstrap'
+import { Card, CardImg, CardBody, CardTitle, CardText, Badge, Row, Col } from 'reactstrap'
 import { bindActionCreators } from 'redux';
 class RecipeList extends Component {
     componentDidMount() {
@@ -13,7 +13,7 @@ class RecipeList extends Component {
         this.props.actions.addToFavourite(recipe);
     }
 
-    recipeInFavourite(recipeId){
+    recipeInFavourite(recipeId) {
         return this.props.favouriteRecipes.some(item => item.id === recipeId);
     }
 
@@ -30,7 +30,9 @@ class RecipeList extends Component {
                                 <CardBody>
                                     <CardTitle><b>{r.name}</b></CardTitle>
                                     <CardText>{r.description.length > 75 ? (r.description.substr(0, 75) + '...') : r.description}</CardText>
-                                    {this.recipeInFavourite(r.id) ? <Badge color='info'>Added To Favourite</Badge> :<Button onClick={() => this.addRecipeToFavourite(r)}>Add To Favourite</Button>}
+                                    <Row>
+                                        <Col xs="10"/>
+                                    {this.recipeInFavourite(r.id) ? <img onClick={() => this.props.actions.removeFromFavourite(r)} alt="remove from favourite" src="../../assets/img/star.png" /> : <img onClick={() => this.addRecipeToFavourite(r)} alt="add favourite" src="../../assets/img/empty_star.png" />}</Row>
                                 </CardBody>
                             </Card><br /></Col>
                         ))
@@ -44,7 +46,7 @@ function mapStateToProps(state) {
     return {
         recipes: state.recipeListReducer,
         currentCategory: state.changeCategoryReducer,
-        favouriteRecipes:state.favouriteReducer
+        favouriteRecipes: state.favouriteReducer
     }
 }
 
@@ -52,7 +54,8 @@ function mapDispatchToProps(dispatch) {
     return {
         actions: {
             getRecipes: bindActionCreators(recipeActions.getRecipes, dispatch),
-            addToFavourite: bindActionCreators(favouriteActions.addToFavourite, dispatch)
+            addToFavourite: bindActionCreators(favouriteActions.addToFavourite, dispatch),
+            removeFromFavourite:bindActionCreators(favouriteActions.removeFromFavourite,dispatch)
         }
     }
 }
